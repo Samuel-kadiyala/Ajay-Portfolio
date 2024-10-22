@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMUEL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquries.css">
+</head>
+<body>
+    <nav id = "desktop-nav"> 
+        <div class="logo">SAMUEL KADIYALA</div>
+        <div>
+            <ul class="nav-links">
+               <li><a href="#ABOUT">ABOUT</a></li>
+               <li><a href="#QUALIFICATIONS">QUALIFICATIONS</a></li>
+               <li><a href="#PROJECTS">PROJECTS</a></li>
+               <li><a href="#CERTIFICATIONS">CERTIFICATIONS</a></li> 
+               <li><a href="#CONTACT">CONTACT</a></li>  
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">SAMUEL KADIYALA</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#ABOUT" onclick="toggleMenu()">ABOUT</a></li> 
+                <li><a href="#QUALIFICATIONS" onclick="toggleMenu()">QUALIFICATIONS</a></li>
+                <li><a href="#PROJECTS" onclick="toggleMenu()">PROJECTS</a></li>
+                <li><a href="#CERTIFICATIONS" onclick="toggleMenu()">CERTIFICATIONS</a></li>
+                <li><a href="#CONTACT" onclick="toggleMenu()">CONTACT</a></li> 
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/Picsart_24-07-19_22-51-54-685.png" alt="SAMUEL KADIYALA PROFILE PIC" height="450" width="450" >
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm </p>
+            <h1 class="title">Ajay Samuel Kadiyala</h1>
+            <p class="section__text__p2">STUDENT OF COMPUTER SCIENCE AND ENGINEERING </p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/AJAYSAMUELKADIYALARESUME.pdf', '_blank')">
+                    Download CV
+                </button>
+                
+    <button class="btn btn-color-1" onclick="location.href='./#CONTACT'">
+        CONTACT Info
+    </button>
+    </div>
+            <div id="socials-container">
+                <img src="./assets/icons8-linkedin.gif" alt="my linkedin profile" class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/samuel-kadiyala'" width="70" height="70"/>
+                <img src="./assets/icons8-instagram.gif" alt="my instagram profile" class="icon" 
+                onclick="location.href='https://www.instagram.com/samkadiyala'" width="80" height="80"/>
+            </div>
+        </div>
+    </section>
+    <section id="ABOUT">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title1">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img
+                src="./assets/Picsart_24-07-19_22-51-54-685.png" height="400" width="400"
+                alt="profile picture"
+                class="about-pic"/>
+            </div>
+                    <div class="about-details-container">
+                        <div class="about-containers">
+                            <div class="details-container">
+                                <img 
+                                src="assets/open-book_11919897.png" alt="experience icon"
+                                class="icon"/>
+                                <h3>EXPERIENCE</h3>
+                                <p>1 YEAR<br /> FULL STACK DEVELOPMENT</p> 
+                            </div>
+                            <div class="details-container">
+                                <img 
+                                src="assets/open-book_11919897.png" alt="education icon"
+                                class="icon"/>
+                                <h3>EDUCATION</h3>
+                                <p>B.TECH. BACHELORS OF TECHNOLOGY<br /> COMPUTER SCIENC AND ENGINEERING</p>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p>As a Computer Science and Engineering,I am passionate about harnessing technology to solve real-world problems. My portfolio showcases a blend of academic projects, personal initiatives, and collaborative efforts that reflect my skills in software development I am committed to continuous learning and excellence in everything I do. I invite you to explore my work and see how I am preparing to make a meaningful impact in the tech industry.
+                            </p>  
+                        </div> 
+                        </div>
+                        </div>
+            <img src="./assets/pngwing.com.png" alt="Arrow icon" class="icon arrow"
+            onclick="location.href='./#QUALIFICATIONS'"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="QUALIFICATIONS">
+        <div class="qualifications-section">
+            <h2>MY QUALIFICATION</h2>
+            <div class="qualification-item">
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>Kallam Haranadha Reddy Institute Of Technology, 2021 - 2025</p>
+                <ul>
+                    <li>Specialized in software development and data structures.</li>
+                    <li>Graduated with honors.</li>
+                    <li>GPA: 8.3/10.0</li>
+                </ul>
+            </div>
+            <div class="qualification-item">
+                <h3>Secondary School Of Education</h3>
+                <p>Nirmala Junior Collage, 2019 - 2021</p>
+                <ul>
+                    <li>Worked as team lead to solve critical mathematic problems</li>
+                    <li>Gained good knowledge on (MPC) subjects</li>
+                    <li>GPA: 9.1/10.0</li>
+                </ul>
+            </div>
+            <div class="qualification-item">
+                <h3>Primary School Of Education</h3>
+                <p>Sri Chaitanya Techno School, 2019</p>
+                <ul>
+                    <li>Worked as school (CPL) and sports leader</li>
+                    <li>Worked as Leader of Pharos Department</li>
+                    <li>Gained good knowledge on theory subjects</li>
+                    <li>GPA: 9.3/10.0</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="PROJECTS">
+        <div class="projects-section">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <div class="project-image">
+                     <img src="./assets/pexels-ann-h-45017-14936128.jpg" alt="portfolio image" height="260" width="350"></div>
+                    <div class="project-content">
+                        <h3>Project One</h3>
+                        <p>Built a responsive personal website with HTML, CSS, and JavaScript to provide a digital platform for showcasing my work and connecting with potential employers.</p>
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="./assets/2592285.jpg" alt="full stack image" height="260" width="350">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Two</h3>
+                        <p>Developed a full-stack web application using Java, [Java framework], [front-end framework], and [database], demonstrating strong skills in both back-end and front-end development.</p>
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image" >
+                        <img src="./assets/bad1408a-bc93-4d3f-89bd-35e416a03e81.jpg" alt="coming soon image" height="260" width="350">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Three</h3>
+                        <p>Freelancer Finder project coming soon! A platform designed to connect freelancers with clients, offering seamless collaboration and project management.</p>
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+ </section>
+ <section id="CERTIFICATIONS">
+    <h2 class="section-title">My Certifications</h2>
+    <div class="certifications-container">
+        <div class="certification">
+            <div class="certification-content">
+                <h3>AWS CLOUD INTRENSHIP CERTIFICATION</h3>
+                <p>Successfully completed an AWS Cloud Internship,gaining hands-on experience with AWS Cloud and Architecture Technology.</p>
+                <a href="assets/Ajay  Samuel Kadiyala cohort 9.pdf" class="certification-link" target="_blank">View Certificate</a>
+            </div>
+        </div>
+        <div class="certification">
+            <div class="certification-content">
+                <h3>GOOGLE ANDRIOD DEVELOPER CERTIFICATION</h3>
+                <p>This certification was obtained from Google with the help of Edu Skill Foundation,Gaining a Knowledge on Andriod Development.</p>
+                <a href="assets/Ajay  Samuel Kadiyala 750886.pdf" class="certification-link" target="_blank">View Certificate</a>
+            </div>
+        </div>
+        <div class="certification">
+            <div class="certification-content">
+                <h3>CERTIFIED IN PYTHON PROGRAMMING THROUGH NPTEL SWAYAM - JOY OF COMPUTING</h3>
+                <p>Certified in NPTEL Swayam's 'Joy of Computing Using Python,' showcasing expertise in Python programming fundamentals and problem-solving skills.</p>
+                <a href="assets/NPTELPYHON.pdf" class="certification-link" target="_blank">View Certificate</a>
+            </div>
+        </div>
+        <div class="certification">
+            <div class="certification-content">
+                <h3>CERTIFIED PYHON PROGRAMMER ON CODE TANTRA</h3>
+                <p>Completed a comprehensive Python programming course on CodeTantra, gaining expertise in Python fundamentals and real-world coding practices.</p>
+                <a href="assets/AJAYSAMUELSOC-2.pdf" class="certification-link" target="_blank">View Certificate</a>
+            </div>
+        </div>
+        <div class="certification">
+            <div class="certification-content">
+                <h3>CERTIFIED C PROGRAMMER ON CODE TANTRA</h3>
+                <p>Completed an in-depth C programming course on CodeTantra, gaining proficiency in C language fundamentals and problem-solving techniques.</p>
+                <a href="assets/AJAYSAMUELCODETANTRA.pdf" class="certification-link" target="_blank">View Certificate</a>
+            </div>
+        </div>
+        <div class="certification">
+            <div class="certification-content">
+                <h3>CREDENTIAL IN NETWORKING ESSENTIALS</h3>
+                <p>Completed the Networking Essentials course, demonstrating proficiency in networking concepts, device configuration, troubleshooting, and local area network management.</p>
+                <a href="assets/AJAY SAMUELKADIYALA-INDIA_KHIT_INTER-certificate (2).pdf" class="certification-link" target="_blank">View Certificate</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="CONTACT">
+    <div class="contact-section">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="6" required aria-required="true"></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <img src="./assets/icons8-whatsapp-50.png" alt="whatsapp image" height="20" width="20">
+                    <a href="tel:+91 9397982777">Ph No:+91 9397982777</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <img src="./assets/icons8-email-50.png" alt="email icon" height="20" width="20">
+                    <a href="mailto:samuelkadiyalaofficial@gmail.com">Email:samuelkadiyalaofficial@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>   
